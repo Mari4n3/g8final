@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Perez/ Valentina Tortorella/ Lourdes Vera/ Mariana González/ DGM4AP MAÑANA 2023</title>
+    
+    <!-- css de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--fin-->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <!-- css google fons app -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <!-- icono de google -->
+
+    <!-- css carpeta-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-md navbar-light border-3 border-button" data-bs-theme="dark">
+            <div class="container d-flex flex-column align-items-center my-5">
+                <a class="navbar-brand" href="#">
+                    <img src="svg/logo.svg" alt="logodeLouvre" width="150">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menudenav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                   
+                <div class="collapse navbar-collapse my-4 mx-4" id="menudenav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item my-2">
+                            <a class="nav-link btn btn-azul btn-lg text-white align-items-center p-2.5 mx-2" href="index.html">
+                                INICIO
+                            </a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link btn btn-azul btn-lg text-white align-items-center p-2.5 mx-2" href="historia.html">
+                                HISTORIA
+                            </a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link btn btn-azul btn-lg text-white  align-items-center p-2.5 mx-2" href="galeria.html">
+                                GALERIA
+                            </a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a  class="nav-link btn btn-azul btn-lg text-white align-items-center p-2.5 mx-2" href="tienda.html">
+                                TIENDA
+                            </a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a  class="nav-link btn btn-azul btn-lg text-white  align-items-center p-2.5 mx-2" href="contacto.html">
+                                CONTACTO
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!---fin de la barra de menu-->
+
+<!-- C1 INICIO -->
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel slide">
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="bannerinicio/banner1.jpg" class="d-block w-100" alt="banner de pintura">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="text-dorado text-center fs-1">EVENTO NARCOSIS</h3>
+                        <p>Louvre abre sus puertas a su nuevo evento, consigue tus entrada en nuestra pagina web o ventanilla.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bannerinicio/banner2.jpg" class="d-block w-100" alt="Banner de galeria">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="text-dorado text-center fs-1">Nuestra Galeria</h3>
+                        <p>Visita nuetra galeria.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="bannerinicio/banner3.jpg" class="d-block w-100" alt="museo Louvre">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="text-dorado text-center fs-1">Nuestro Museo</h3>
+                        <p>Contamos con espacios aplios para que disfruten su recorrido en Louvre.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="bannerinicio/banner4.jpg" class="d-block w-100" alt="tienda">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>¡Recuerditos!</h3>
+                        <p>No olvides pasar por nuestra tienda, para tener tu recuerdo Louvre.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!--fin de c1-->
+    
+    <!--comienzo de evento narcosis c2-->
+    <section>
+      <div class="bg-dark p-2">
+        <h3 class="text-dorado text-center fs-1 py-3">EVENTO NARCOSIS</h3>
+        <p class="text-white text-center fs-4">Artistas invitados</p>
+          <div id="compras" class="carousel slide carousel-dark py-5">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#compras"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#compras"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#compras"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- CARD DE ARTISTAS -->
+                <div class="row">
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1 ">
+                    <div class="card text-bg-dark">
+                      <!-- Louise Bourgeois -->
+                      <img
+                        src="evento/louise.jpg"
+                        class="card-img-top"
+                        alt="foto de Louise"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Louise Bourgeois</h2>
+                        <p class="card-text text-white">
+                          fue una artista y escultora francesa nacionalizada estadounidense.
+                          Conocida por sus esculturas de arañas, que le valió el apodo de <b>"Mujer Araña"</b>.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Remedios Varo -->
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/remedios.jpg"
+                        class="card-img-top"
+                        alt="remedios"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Remedios Varo</h2>
+                        <p class="card-text">
+                          La obra de Varo evoca un mundo surgido
+                          de su imaginación donde se mezcla lo científico, lo místico, lo esotérico y lo mágico.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Zdzisław Beksiński -->
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/zdzislaw.jpg"
+                        class="card-img-top"
+                        alt="Zdzisław Beksiński"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado"> Zdzisław Beksiński</h2>
+                        <p class="card-text">
+                          fue un pintor, fotógrafo y escultor polaco.
+                          Ejecutó sus dibujos y pinturas de un género que él mismo llamó barroco o gótico.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin de row artistas -->
+                <!-- row de 3 obras -->
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/obralouise1.jpg"
+                        class="card-img-top"
+                        alt="CELDAS RETRATO"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Celda Retrato</h2>
+                        <p class="card-text">
+                          Busca expresar el carácter y las emociones de esa persona. Las cabezas cosidas a mano con retazos de telas de las Celdas retrato (Portrait Cells).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/obraremedios1.jpg"
+                        class="card-img-top"
+                        alt="PAPILLA-ESTELAR"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Papilla Estelar</h2>
+                        <p class="card-text">
+                          Su arte era el reflejo de sus reclamos por las represiones por las que pasaban las mujeres de su época, es así que, fueron consideradas como feministas.
+                        </p>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/obrabendez1.jpg"
+                        class="card-img-top"
+                        alt="Peakpx"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Peakpx</h2>
+                        <p class="card-text">
+                          Transmiten ansiedad, como caras de muñecas destrozadas o caras que han sido limpiadas u
+                          ocultadas por vendajes atados alrededor de la imagen.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                <!--fin de las card-->
+                </div>
+                <!-- fin row -->
+                <!-- row 3 obras -->
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/obralouise2.jpg"
+                        class="card-img-top"
+                        alt="Maman"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Maman</h2>
+                        <p class="card-text text-white">
+                          una serie de arañas gigantes -animales protectores por naturaleza- en homenaje a su madre ausente.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/obraremedios2.jpeg"
+                        class="card-img-top"
+                        alt="paraíso de los gatos"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Paraíso de los gatos</h2>
+                        <p class="card-text">
+                          La pintura nos presenta un mundo imaginario donde los gatos figuran como los protagonista.
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-10 mx-auto col-lg-4 p-5 p-lg-1">
+                    <div class="card text-bg-dark">
+                      <img
+                        src="evento/obrabendez2.jpg"
+                        class="card-img-top"
+                        alt="Tunel Carmesí"
+                      />
+                      <div class="card-body">
+                        <h2 class="card-title text-dorado">Tunel Carmesí</h2>
+                        <p class="card-text text-white">
+                          reflejan una síntesis de muchas influencias, inspiraciones y son piedras de toque de las inclinaciones del artista.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--fin de card-->
+                </div>
+                <!-- fin row-->
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#compras"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#compras"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <div class="container">
+              <div class="d-grid gap-2 col-2 mx-auto">
+                <a class="btn btn-azul text-white" href="tienda.html" role="button">ENTRADAS</a>
+              </div>
+            </div>
+
+          </div>
+          
+         
+      </div>
+      
+      </section>
+           
+
+    <!--car  visitantes-->
+    <section>
+      <h3 class="fondodevisitante p-5 my-3 text-dorado text-center">VISITANTES</h3>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <div class="card mx-3 p-3 py-lg-2" style="max-width: 1300px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="visitantes/visitante1.jpg" class="img-fluid rounded-start" alt="Fede Gutierrez">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body py-5">
+                    <h3 class="card-title text-dorado display-5">Fede Gutierrez</h3>
+                    <p class="card-text fs-6 text-body-secondary text-start">Espectacular museo que requiere planificación y cuidado para visitarlo durante un día
+                       entero, aprovechar el tiempo invertido y disfrutar lo que uno desea ver. Sin tomar recaudos la visita se 
+                       dificulta por la extensión del museo, la cantidad de obras y las personas que concurren al mismo. Merece 
+                       múltiples visitas para poder ver todo lo que uno desea ya que parece imposible conocerlo en su totalidad.
+                      </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 4 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mx-3 p-3 py-lg-2" style="max-width: 1300px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="visitantes/visitante2.jpg" class="img-fluid rounded-start" alt="Ana Bascon">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body py-5">
+                    <h3 class="card-title text-dorado display-5">Ana Bascon</h3>
+                    <p class="card-text fs-6 text-body-secondary text-start">No fue una visita exhaustiva, es imposible en tan poco tiempo, 
+                      pero sí suficiente para hacerse una idea de todo lo que hay por ver.
+                      Para mi gusto debería estar mejor señalizada o indicar algún recorrido.
+                      Recomiendo planificar un recorrido por alas en lugar de por plantas. En el folleto
+                       informativo hay un poco de información al respecto.
+                      </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 30 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mx-3 p-3 py-lg-2" style="max-width: 1300px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="visitantes/visitante3.jpg" class="img-fluid rounded-start" alt="Gonzalo Jorajuría">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body py-5">
+                    <h3 class="card-title text-dorado display-5">Gonzalo Jorajuría</h3>
+                    <p class="card-text fs-6 text-body-secondary text-start">Increíble la infraestructura de este lugar, es inmenso. En esta ocasión no entré, pero hace unos años 
+                      tuve la oportunidad de entrar y estuve todo el día recorriendolo, es interminable y está repleto de gente. La historia que 
+                      hay dentro es increíble.Así que si tienes un día entero para dedicarle te recomiendo que entres, sino que lo aprecies por
+                       fuera que también es bonito.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 50 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+           
+      <!--pie de pagina-->
+      <footer class="bg-azul text-light p-3 my-2">
+        <div class="container">
+            <div class="row">
+                <div class="col text-left">
+                    <h1 class="footers">CONTACTO</h1>
+                    <ul class="list-inline redes">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/museelouvre/" class="text-decoration-none fs-4">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.pinterest.fr/museedulouvre/" class="text-decoration-none fs-4">
+                                <i class="bi bi-pinterest"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/museedulouvre" class="text-decoration-none fs-4">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/museelouvre" class="text-decoration-none fs-4">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="contacto.html" class="text-decoration-none fs-4">
+                                <i class="bi bi-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col text-right mx-2 p-1">
+                    <img src="svg/piramide.svg" class="rounded float-end" alt="logo de Louvre piramide">
+                </div>
+                <p class="py-3 m-2 text-center">Karen Perez/ Valentina Tortorella/ Lourdes Vera/ Mariana González/ DGM4AP MAÑANA 2023 copyright -</p>
+            </div>
+        </div>
+    </footer>
+    <!--fin de pie de pagina-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

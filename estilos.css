@@ -1,0 +1,121 @@
+
+
+h1{
+font-family: Limelight;
+}
+
+h2{ 
+    font-family: Tahoma;
+}
+h3{
+  font-family: Limelight;
+}
+
+p{
+  font-family: Baskervville;
+}
+.text-dorado{
+  color: #BE9736;
+}
+.text-azul{
+  color: #354C53;
+}
+.card-title{
+    font-family: Limelight;
+}
+.navbar {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('svg/barratrama.jpg');
+    background-size: auto;
+}
+
+
+
+   
+
+.navbar-nav a,.navbar-nav .active{
+    color: #D9D9D9;
+    font-family: Limelight;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+}   
+.navbar a:hover{
+    color: rgb(255, 255, 255)!important;
+}
+.btn-azul{
+    background-color:#354C53;
+}
+.btn:hover{
+    background-color:#BE9736;
+  }
+  .containerevento{
+    background-color: #1D1D1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    background-color:rgba(55, 66, 114, 0.11);
+ 
+  }
+
+  .carousel-vertical {
+    transform-style: preserve-3d;
+    background-color: #ffffff;
+  }
+  
+  .carousel-item {
+   
+    transform: rotateX(90deg) translateY(-100%);
+    transform-origin: top;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    visibility: hidden;
+    display: block !important;
+  }
+  
+  .carousel-item.active {
+    transform: rotateX(0deg) translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+  .fondodevisitante{
+background-color: #D9D9D9;
+  }
+  
+
+.bg-azul{
+  background: #354C52;
+}
+.footers{
+  color:#ffffff ;
+
+}
+.bi{
+  color: #BE9736;
+}
+.bg-amarillo{
+  background: #BE9736;
+}
+.bi2{
+  color: #354C52;
+}
+
+.entradas{
+   font-family: Limelight;
+}
+.containerentradas {
+ background-color: #354C53;
+ font-family: Baskervville;
+}
+.entradasboton {
+ background-color: #BE9736;
+ font-family: Limelight;
+ color: #354C53;
+}
+
+.fondogaleria{
+  background-color: #000000;
+}
